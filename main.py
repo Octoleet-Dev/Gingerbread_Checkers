@@ -1,15 +1,22 @@
-print("under apache liscence 2.0")
-print("a physical board is required to play this game")
-tsncs = input("Press 1 to accept these conditions: ")
-accepted = 1
-declined = 0
-thetsncs = int(tsncs)
-if thetsncs == accepted:
-print('Thank you!')
-print("The software isn't open source right now, please email leokeene0@gmail.com for access to the beta")
-print("If you have a beta liscence, please enter it here")
-Alex's_beta_liscence = 88224646ba
-liscence = input('>>>')
+print('welcome to the Gingerbread_Checkers launcher')
+print('would you like to start a new game?')
+wu = input('>>>')
+yes = 'yes'
+Yes = 'Yes'
+no = 'no'
+No = 'no'
+def y():
+ print('okay, starting new game')
+def x():
+ print('okay then')
+if wu = yes:
+  y()
+if wu = Yes
+ y()
+if wu = no
+ x()
+if wu = No
+ x()
 else:
-print("error code: 20")
-print("Please restart the software and start again")
+ print('error code 000: invalid response recived')
+ 
